@@ -1,13 +1,22 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { DM_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin-ext"], variable: '--font-inter' });
-const playfair = Playfair_Display({ subsets: ["latin-ext"], variable: '--font-playfair' });
+const dmSans = DM_Sans({ 
+  subsets: ["latin-ext"], 
+  variable: '--font-dm-sans',
+  display: 'swap',
+});
+
+const playfair = Playfair_Display({ 
+  subsets: ["latin-ext"], 
+  variable: '--font-playfair',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
-  title: "Loca.hu | Premium Kiemelt Termék",
-  description: "Vásárold meg a legújabb kiemelt termékeket a Loca.hu-n!",
+  title: "Loca.hu | PDRN Pink Collagen Volume Multi Balm",
+  description: "Plump, Glow & Restore In One Balm. The Medicube PDRN Pink Collagen Multi Balm with 5% Volufiline™.",
 };
 
 export default function RootLayout({
@@ -16,8 +25,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="hu">
-      <body className={`${inter.variable} ${playfair.variable}`}>{children}</body>
+    <html lang="hu" className="scroll-smooth">
+      <body className={`${dmSans.variable} ${playfair.variable} font-sans antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,13 +1,27 @@
-import { promises as fs } from 'fs';
-import path from 'path';
-import ProductPage, { Product } from '@/components/ProductPage';
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { TrustBar } from "@/components/TrustBar";
+import { ProblemSolution } from "@/components/ProblemSolution";
+import { Benefits } from "@/components/Benefits";
+import { ProductShowcase } from "@/components/ProductShowcase";
+import { Reviews } from "@/components/Reviews";
+import { Faq } from "@/components/Faq";
+import { FinalCta } from "@/components/FinalCta";
+import { Footer } from "@/components/Footer";
 
-export default async function Home() {
-  const dataPath = path.join(process.cwd(), 'src/data/products.json');
-  const fileContents = await fs.readFile(dataPath, 'utf8');
-  const products: Product[] = JSON.parse(fileContents);
-
-  const featuredProduct = products.find(p => p.isFeatured) || products[0];
-
-  return <ProductPage product={featuredProduct} />;
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <Header />
+      <Hero />
+      <TrustBar />
+      <ProblemSolution />
+      <Benefits />
+      <ProductShowcase />
+      <Reviews />
+      <Faq />
+      <FinalCta />
+      <Footer />
+    </div>
+  );
 }
