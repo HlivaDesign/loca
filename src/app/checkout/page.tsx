@@ -8,7 +8,7 @@ export default function CheckoutPage() {
     <div className="min-h-screen bg-background font-sans text-foreground selection:bg-accent selection:text-white flex flex-col">
       <Header />
       
-      <main className="flex-1 bg-muted/30 pb-20 pt-10">
+      <main className="flex-1 bg-muted/30 pb-20 pt-28 lg:pt-32">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="mb-8 text-center md:text-left">
             <h1 className="text-3xl sm:text-4xl font-bold text-foreground font-serif">Biztonságos Pénztár</h1>

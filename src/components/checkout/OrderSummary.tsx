@@ -9,7 +9,7 @@ export function OrderSummary() {
       <div className="flex gap-4 items-center pb-4 border-b border-border">
         <div className="w-16 h-16 bg-pink-50 rounded-lg overflow-hidden shrink-0 border border-pink-100 flex items-center justify-center">
           <img 
-            src="/images/2acf9c4f-8517-470d-9cf0-84e1b43ab70f.png" 
+            src="/images/balm-solo.png" 
             alt="PDRN Pink Collagen" 
             className="w-full h-full object-cover" 
           />
