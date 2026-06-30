@@ -41,7 +41,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="#product"
+            href="/checkout"
             className="hidden sm:inline-flex items-center gap-2 bg-accent text-accent-foreground font-semibold text-sm px-5 py-2.5 rounded-full hover:opacity-90 transition-opacity"
           >
             Vásárlás
@@ -63,7 +63,7 @@ export function Header() {
           <a href="#reviews" onClick={() => setMenuOpen(false)} className="py-2.5 text-sm font-medium text-foreground border-b border-border">Vélemények</a>
           <a href="#faq" onClick={() => setMenuOpen(false)} className="py-2.5 text-sm font-medium text-foreground">GYIK</a>
           <a
-            href="#product"
+            href="/checkout"
             onClick={() => setMenuOpen(false)}
             className="mt-1 w-full text-center bg-accent text-accent-foreground font-semibold text-sm px-5 py-3.5 rounded-full hover:opacity-90 transition-opacity"
           >

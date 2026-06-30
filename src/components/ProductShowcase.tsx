@@ -98,7 +98,7 @@ export function ProductShowcase() {
 
             <a
               id="product"
-              href="#product"
+              href="/checkout"
               className="flex items-center justify-center gap-2 bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-full hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-pink-200"
             >
               Kosárba teszem — 6 990 Ft

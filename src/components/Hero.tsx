@@ -35,7 +35,7 @@ export function Hero() {
               <span className="mb-1 bg-red-50 text-red-600 text-sm font-bold px-2 py-0.5 rounded-md border border-red-100">−42%</span>
             </div>
             <div className="flex flex-row gap-3">
-              <a href="#product" className="flex items-center justify-center gap-2 bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-full hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-pink-200">
+              <a href="/checkout" className="flex items-center justify-center gap-2 bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-full hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-pink-200">
                 Megrendelés <ArrowRight className="w-5 h-5" />
               </a>
               <a href="#showcase" className="flex items-center justify-center gap-2 border border-border text-foreground font-semibold text-base px-6 py-4 rounded-full hover:bg-muted transition-colors">
@@ -102,7 +102,7 @@ export function Hero() {
 
           {/* CTAs */}
           <div className="flex flex-col gap-3">
-            <a href="#product" className="flex items-center justify-center gap-2 bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-full hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-pink-200">
+            <a href="/checkout" className="flex items-center justify-center gap-2 bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-full hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-pink-200">
               Megrendelés <ArrowRight className="w-5 h-5" />
             </a>
             <a href="#showcase" className="flex items-center justify-center gap-2 border border-border text-foreground font-semibold text-base px-6 py-4 rounded-full hover:bg-muted transition-colors">
