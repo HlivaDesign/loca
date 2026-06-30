@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #000000; /* Minimalist Black */
+  --primary-hover: #333333;
+  --bg-color: #ffffff;
+  --card-bg: #fdfdfd;
+  --text-main: #1a1a1a;
+  --text-muted: #737373;
+  --white: #ffffff;
+  --border-color: #f0f0f0;
+  --success-color: #000000;
+  
+  --font-serif: var(--font-playfair, 'Playfair Display', serif);
+  --font-sans: var(--font-inter, 'Inter', sans-serif);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.6;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+
+/* Base utility classes for animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

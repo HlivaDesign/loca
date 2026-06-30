@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Kiemelt Prémium Termék",
+    "slug": "kiemelt-premium-termek",
+    "price": 14990,
+    "description": "Ez a legújabb, legnépszerűbb termékünk, amely tökéletes megoldást nyújt a mindennapi problémákra.",
+    "images": ["https://via.placeholder.com/800x800.png?text=Termek+Kep"],
+    "benefits": ["Kiváló minőség", "Azonnali hatás", "Strapabíró kialakítás"],
+    "features": ["Vízálló anyag", "Kompakt méret", "Könnyű használat"],
+    "faqs": [
+      {
+        "question": "Mennyi a szállítási idő?",
+        "answer": "Raktáron lévő termékeinket 1-2 munkanap alatt házhoz szállítjuk."
+      },
+      {
+        "question": "Van rá garancia?",
+        "answer": "Természetesen, 14 napos pénzvisszafizetési garanciát biztosítunk!"
+      }
+    ],
+    "ctaText": "Megrendelem most",
+    "availability": "Raktáron",
+    "isFeatured": true
+  },
+  {
+    "id": "2",
+    "name": "Másik Szuper Termék",
+    "slug": "masik-szuper-termek",
+    "price": 8990,
+    "description": "Tökéletes kiegészítő azoknak, akik valami különlegeset keresnek.",
+    "images": ["https://via.placeholder.com/800x800.png?text=Masik+Termek"],
+    "benefits": ["Praktikus", "Olcsó", "Kompakt"],
+    "features": ["Színes", "Műanyag"],
+    "faqs": [
+      {
+        "question": "Mikor kapom meg?",
+        "answer": "Általában 2-3 munkanap."
+      }
+    ],
+    "ctaText": "Megveszem",
+    "availability": "Készleten",
+    "isFeatured": false
+  }
+]
