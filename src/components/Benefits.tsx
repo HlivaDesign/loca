@@ -3,28 +3,28 @@ import { Droplets, Sparkles, Heart, Layers, Clock } from "lucide-react";
 const benefits = [
   {
     icon: <Droplets className="w-6 h-6" />,
-    title: "Deep Moisture Lock",
-    desc: "Intensive hydration that doesn't just sit on the surface — it penetrates for lasting softness.",
+    title: "Mély Hidratálás",
+    desc: "Intenzív hidratálás, ami nem csak a felszínen marad — mélyre hatol a hosszantartó puhaságért.",
   },
   {
     icon: <Sparkles className="w-6 h-6" />,
     title: "5% Volufiline™",
-    desc: "Clinically proven to increase volume and fullness in targeted areas — naturally, no needles needed.",
+    desc: "Klinikailag bizonyítottan növeli a feszességet és a térfogatot a célzott területeken — tűk nélkül.",
   },
   {
     icon: <Heart className="w-6 h-6" />,
-    title: "PDRN Repair Complex",
-    desc: "Supports collagen synthesis and skin regeneration for visibly firmer, younger-looking skin.",
+    title: "PDRN Regeneráló Komplex",
+    desc: "Támogatja a kollagén szintézist és a sejtregenerációt a láthatóan feszesebb, fiatalosabb bőrért.",
   },
   {
     icon: <Layers className="w-6 h-6" />,
-    title: "True Multi-Use",
-    desc: "Lips, eye area, cheeks, nasolabial folds, neck — one balm covers your entire glow routine.",
+    title: "Többfunkciós Használat",
+    desc: "Ajkak, szemkörnyék, orcák, nevetőráncok, nyak — egyetlen balzsam a teljes arcápolási rutinhoz.",
   },
   {
     icon: <Clock className="w-6 h-6" />,
-    title: "Results From Week 1",
-    desc: "Visible plumping and hydration from the very first applications. Cumulative results with daily use.",
+    title: "Eredmények 1 Hét Alatt",
+    desc: "Látható dúsító és hidratáló hatás már az első használattól. Folyamatos javulás napi használat mellett.",
   },
 ];
 
@@ -34,10 +34,10 @@ export function Benefits() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <p className="text-accent text-sm font-semibold uppercase tracking-widest mb-3">
-            What it does
+            Mire jó
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground font-serif">
-            Science Meets Skincare
+            Tudomány és Bőrápolás
           </h2>
         </div>
 

@@ -6,10 +6,10 @@ export function Guarantee() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-white font-serif">
-            Shop With Confidence
+            Vásárolj Bizalommal
           </h2>
           <p className="mt-3 text-white/60 max-w-lg mx-auto">
-            Every order is backed by our full promise — no risk, no worry.
+            Minden rendelésre teljes körű garanciát vállalunk — nincs kockázat, nincs aggodalom.
           </p>
         </div>
 
@@ -17,23 +17,23 @@ export function Guarantee() {
           {[
             {
               icon: <Truck className="w-6 h-6" />,
-              title: "Free Shipping",
-              desc: "All orders ship free. Delivered in 3–5 business days across Hungary.",
+              title: "Ingyenes Szállítás",
+              desc: "Minden rendelést ingyenesen szállítunk, 1-2 munkanapon belül Magyarország területén.",
             },
             {
               icon: <RefreshCw className="w-6 h-6" />,
-              title: "30-Day Returns",
-              desc: "Not satisfied? Return it within 30 days for a full refund — no questions asked.",
+              title: "30 Napos Visszatérítés",
+              desc: "Nem vagy elégedett? Küldd vissza 30 napon belül a teljes vételárért — kérdések nélkül.",
             },
             {
               icon: <CreditCard className="w-6 h-6" />,
-              title: "Secure Payment",
-              desc: "SSL-encrypted checkout. Pay by card, PayPal, or Apple Pay — fully protected.",
+              title: "Biztonságos Fizetés",
+              desc: "SSL-titkosított pénztár. Fizess kártyával, PayPal-lal vagy Apple Pay-jel — teljes biztonságban.",
             },
             {
               icon: <Headphones className="w-6 h-6" />,
-              title: "Customer Support",
-              desc: "Our team responds within 24 hours. Reach us at support@loca.hu anytime.",
+              title: "Ügyfélszolgálat",
+              desc: "Csapatunk 24 órán belül válaszol. Keress minket a support@loca.hu címen bármikor.",
             },
           ].map(({ icon, title, desc }) => (
             <div

@@ -14,18 +14,18 @@ export function Hero() {
           <div className="flex flex-col gap-5">
             <div className="inline-flex self-start items-center gap-2 bg-pink-50 text-[#c45c7a] text-xs font-semibold px-3 py-1.5 rounded-full border border-pink-200">
               <Award className="w-3.5 h-3.5" />
-              This Week's Featured Deal
+              E Heti Kiemelt Ajánlatunk
             </div>
             <h1 className="text-5xl lg:text-[3.4rem] font-bold leading-tight text-foreground font-serif">
-              Plump, Glow & <span className="text-accent">Restore</span>
+              Telt, Ragyogó & <span className="text-accent">Feszes</span>
               <br />
-              In One Balm
+              Bőr Egyetlen Balzsammal
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              The Medicube PDRN Pink Collagen Multi Balm with{" "}
-              <strong className="text-foreground">5% Volufiline™</strong> —
-              clinically proven volumising care for lips, eye area, and skin.
-              No needles. Just results.
+              A Medicube PDRN Pink Collagen Multi Balm{" "}
+              <strong className="text-foreground">5% Volufiline™</strong> összetevővel —
+              klinikailag bizonyított dúsító ápolás ajakra, szemkörnyékre és arcbőrre.
+              Tűk nélkül. Csak látványos eredmények.
             </p>
             <div className="flex items-end gap-3">
               <span className="text-4xl font-bold text-foreground font-serif">
@@ -36,17 +36,17 @@ export function Hero() {
             </div>
             <div className="flex flex-row gap-3">
               <a href="#product" className="flex items-center justify-center gap-2 bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-full hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-pink-200">
-                Order Now <ArrowRight className="w-5 h-5" />
+                Megrendelés <ArrowRight className="w-5 h-5" />
               </a>
               <a href="#showcase" className="flex items-center justify-center gap-2 border border-border text-foreground font-semibold text-base px-6 py-4 rounded-full hover:bg-muted transition-colors">
-                See Details
+                Részletek
               </a>
             </div>
             <div className="flex flex-wrap gap-x-5 gap-y-2 pt-1">
               {[
-                { icon: <Truck className="w-4 h-4" />, label: "Free Shipping" },
-                { icon: <ShieldCheck className="w-4 h-4" />, label: "Secure Checkout" },
-                { icon: <RefreshCw className="w-4 h-4" />, label: "30-Day Returns" },
+                { icon: <Truck className="w-4 h-4" />, label: "Ingyenes szállítás" },
+                { icon: <ShieldCheck className="w-4 h-4" />, label: "Biztonságos fizetés" },
+                { icon: <RefreshCw className="w-4 h-4" />, label: "30 napos pénzvisszafizetés" },
               ].map(({ icon, label }) => (
                 <span key={label} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground">
                   <span className="text-accent">{icon}</span>{label}
@@ -59,7 +59,7 @@ export function Hero() {
                   <div key={idx} className={`w-7 h-7 rounded-full ${bg} border-2 border-white flex items-center justify-center text-xs font-bold text-gray-600`}>{i}</div>
                 ))}
               </div>
-              <span className="text-sm text-muted-foreground"><strong className="text-foreground">980+</strong> happy customers</span>
+              <span className="text-sm text-muted-foreground"><strong className="text-foreground">980+</strong> elégedett vásárló</span>
               <div className="flex gap-0.5 ml-1">
                 {[...Array(5)].map((_, i) => <Star key={i} className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />)}
               </div>
@@ -75,17 +75,17 @@ export function Hero() {
           {/* Badge + headline + subtitle */}
           <div className="inline-flex self-start items-center gap-2 bg-pink-50 text-[#c45c7a] text-xs font-semibold px-3 py-1.5 rounded-full border border-pink-200">
             <Award className="w-3.5 h-3.5" />
-            This Week's Featured Deal
+            E Heti Kiemelt Ajánlatunk
           </div>
           <h1 className="text-4xl font-bold leading-tight text-foreground font-serif">
-            Plump, Glow & <span className="text-accent">Restore</span>
+            Telt, Ragyogó & <span className="text-accent">Feszes</span>
             <br />
-            In One Balm
+            Bőr Egyetlen Balzsammal
           </h1>
           <p className="text-base text-muted-foreground leading-relaxed">
-            The Medicube PDRN Pink Collagen Multi Balm with{" "}
-            <strong className="text-foreground">5% Volufiline™</strong> —
-            clinically proven volumising care. No needles. Just results.
+            A Medicube PDRN Pink Collagen Multi Balm{" "}
+            <strong className="text-foreground">5% Volufiline™</strong> összetevővel —
+            klinikailag bizonyított dúsító ápolás. Tűk nélkül. Csak látványos eredmények.
           </p>
 
           {/* Video + product image — side by side */}
@@ -103,19 +103,19 @@ export function Hero() {
           {/* CTAs */}
           <div className="flex flex-col gap-3">
             <a href="#product" className="flex items-center justify-center gap-2 bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-full hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-pink-200">
-              Order Now <ArrowRight className="w-5 h-5" />
+              Megrendelés <ArrowRight className="w-5 h-5" />
             </a>
             <a href="#showcase" className="flex items-center justify-center gap-2 border border-border text-foreground font-semibold text-base px-6 py-4 rounded-full hover:bg-muted transition-colors">
-              See Details
+              Részletek
             </a>
           </div>
 
           {/* Trust pills */}
           <div className="flex flex-wrap gap-x-4 gap-y-2">
             {[
-              { icon: <Truck className="w-4 h-4" />, label: "Free Shipping" },
-              { icon: <ShieldCheck className="w-4 h-4" />, label: "Secure Checkout" },
-              { icon: <RefreshCw className="w-4 h-4" />, label: "30-Day Returns" },
+              { icon: <Truck className="w-4 h-4" />, label: "Ingyenes szállítás" },
+              { icon: <ShieldCheck className="w-4 h-4" />, label: "Biztonságos fizetés" },
+              { icon: <RefreshCw className="w-4 h-4" />, label: "30 napos pénzvisszafizetés" },
             ].map(({ icon, label }) => (
               <span key={label} className="inline-flex items-center gap-1.5 text-sm text-muted-foreground">
                 <span className="text-accent">{icon}</span>{label}
@@ -130,7 +130,7 @@ export function Hero() {
                 <div key={idx} className={`w-7 h-7 rounded-full ${bg} border-2 border-white flex items-center justify-center text-xs font-bold text-gray-600`}>{i}</div>
               ))}
             </div>
-            <span className="text-sm text-muted-foreground"><strong className="text-foreground">980+</strong> happy customers</span>
+            <span className="text-sm text-muted-foreground"><strong className="text-foreground">980+</strong> elégedett vásárló</span>
             <div className="flex gap-0.5 ml-1">
               {[...Array(5)].map((_, i) => <Star key={i} className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />)}
             </div>

@@ -18,7 +18,7 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
         <Play className={`text-[#c45c7a] fill-[#c45c7a] ml-0.5 ${small ? "w-5 h-5" : "w-7 h-7"}`} />
       </div>
       <span className={`font-semibold text-white drop-shadow bg-black/30 rounded-full tracking-wide ${small ? "text-[10px] px-2 py-0.5" : "text-xs px-3 py-1"}`}>
-        {small ? "Watch" : "Watch Video"}
+        {small ? "Videó" : "Videó lejátszása"}
       </span>
     </button>
   );
@@ -79,12 +79,12 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
         {/* In-stock badge */}
         <div className="absolute top-4 left-4 z-20 bg-white rounded-2xl shadow-lg px-3 py-2 flex items-center gap-2 pointer-events-none">
           <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-          <span className="text-xs font-semibold text-foreground">In Stock</span>
+          <span className="text-xs font-semibold text-foreground">Raktáron</span>
         </div>
 
         {/* Ingredient chip */}
         <div className="absolute bottom-5 left-4 z-20 bg-white/90 backdrop-blur-sm rounded-xl shadow px-3 py-2 border border-pink-100 pointer-events-none">
-          <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-semibold">Key Ingredient</p>
+          <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-semibold">Fő összetevő</p>
           <p className="text-sm font-bold text-foreground">5% Volufiline™</p>
         </div>
       </div>

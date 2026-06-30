@@ -50,7 +50,7 @@ export function ProductShowcase() {
           <div className="flex flex-col gap-6">
             <div>
               <p className="text-accent text-sm font-semibold uppercase tracking-widest mb-2">
-                Featured Product
+                Kiemelt Termék
               </p>
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-3 leading-tight font-serif">
                 PDRN Pink Collagen<br />Volume Multi Balm
@@ -59,21 +59,21 @@ export function ProductShowcase() {
                 by Medicube · All In One Volufiline
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                A dermatologist-developed multi-use balm stick enriched with
-                PDRN and 5% Volufiline™. Clinically shown to increase skin
-                volume and improve plumpness — apply to lips, eye area,
-                cheeks, or anywhere that needs care.
+                Bőrgyógyászok által kifejlesztett többfunkciós balzsam PDRN és 
+                5% Volufiline™ tartalommal. Klinikailag bizonyítottan növeli a bőr 
+                térfogatát és javítja a feszességet — használd az ajkaidon, a szemkörnyéken, 
+                az orcákon vagy bárhol, ahol célzott ápolásra van szükség.
               </p>
             </div>
 
             <ul className="flex flex-col gap-3">
               {[
-                "PDRN complex for skin regeneration and repair",
-                "5% Volufiline™ — clinically proven to plump and volumise",
-                "Pink Collagen for elasticity and firmness support",
-                "Multi-zone use: lips, eyes, cheeks, neck, nasolabial folds",
-                "Lightweight stick format — melts on contact with skin",
-                "Dermatologist tested · Paraben-free · 10g / 0.35 oz",
+                "PDRN komplex a bőr regenerálására és sejtmegújítására",
+                "5% Volufiline™ — klinikailag bizonyított dúsító hatás",
+                "Pink Kollagén a rugalmasságért és feszességért",
+                "Többfunkciós: ajkak, szemkörnyék, orcák, nyak, nevetőráncok",
+                "Könnyed stift formátum — a bőrrel érintkezve azonnal megolvad",
+                "Bőrgyógyászatilag tesztelt · Parabénmentes · 10g",
               ].map((feat) => (
                 <li key={feat} className="flex items-start gap-3">
                   <span className="mt-0.5 w-5 h-5 rounded-full bg-pink-50 border border-pink-200 flex items-center justify-center shrink-0">
@@ -101,12 +101,12 @@ export function ProductShowcase() {
               href="#product"
               className="flex items-center justify-center gap-2 bg-accent text-accent-foreground font-bold text-base px-8 py-4 rounded-full hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-pink-200"
             >
-              Add to Cart — 6 990 Ft
+              Kosárba teszem — 6 990 Ft
               <ArrowRight className="w-5 h-5" />
             </a>
 
             <p className="text-xs text-center text-muted-foreground">
-              Free shipping · 30-day returns · Secure payment
+              Ingyenes szállítás · 30 napos visszatérítés · Biztonságos fizetés
             </p>
           </div>
         </div>

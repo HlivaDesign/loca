@@ -4,20 +4,20 @@ const reviews = [
   {
     name: "Zsófi B.",
     rating: 5,
-    date: "3 weeks ago",
-    text: "I was skeptical about a balm stick doing this much, but my lips and cheeks genuinely look plumper after two weeks. The texture is so luxurious — melts right in. Worth every penny.",
+    date: "3 hete",
+    text: "Szkeptikus voltam, hogy egy balzsam mire lehet képes, de az ajkaim és az orcám is láthatóan teltebbek lettek két hét után. A textúrája isteni — azonnal beszívódik. Minden pénzt megér.",
   },
   {
     name: "Anna K.",
     rating: 5,
-    date: "1 month ago",
-    text: "Been using it as a lip treatment every night and the difference is unreal. No more dry flaky lips. Also use it around my eyes and it's become a non-negotiable in my routine.",
+    date: "1 hónapja",
+    text: "Minden este használom ajakápolóként, az eredmény hihetetlen. Nincs többé száraz, hámló száj. A szemem köré is kenem, mára a rutinomba bebetonozott darab lett.",
   },
   {
     name: "Réka M.",
     rating: 4,
-    date: "2 weeks ago",
-    text: "Love how convenient the stick format is — I keep it in my bag and use it throughout the day. Skin feels noticeably softer and more hydrated. Delivery was super quick too.",
+    date: "2 hete",
+    text: "Imádom, hogy ennyire praktikus — mindig a táskámban van és napközben is használom. A bőröm érezhetően puhább és hidratáltabb. A szállítás is szuper gyors volt.",
   },
 ];
 
@@ -44,10 +44,10 @@ export function Reviews() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <p className="text-accent text-sm font-semibold uppercase tracking-widest mb-3">
-            Customer reviews
+            Vásárlói vélemények
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-3 font-serif">
-            Real Results, Real People
+            Valós Eredmények, Valós Emberek
           </h2>
           <div className="flex items-center justify-center gap-2 mt-2">
             <div className="flex gap-0.5">
@@ -56,7 +56,7 @@ export function Reviews() {
               ))}
             </div>
             <span className="font-bold text-foreground text-lg">4.9</span>
-            <span className="text-muted-foreground text-sm">based on 147 reviews</span>
+            <span className="text-muted-foreground text-sm">147 vélemény alapján</span>
           </div>
         </div>
 

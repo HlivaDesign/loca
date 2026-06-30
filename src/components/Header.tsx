@@ -27,16 +27,16 @@ export function Header() {
           <Image
             src="/images/logo.png"
             alt="Loca.hu"
-            width={120}
-            height={40}
-            className="h-10 md:h-8 w-auto object-contain"
+            width={180}
+            height={60}
+            className="h-12 md:h-14 w-auto object-contain"
           />
         </a>
 
         <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-muted-foreground">
-          <a href="#benefits" className="hover:text-foreground transition-colors">Benefits</a>
-          <a href="#reviews" className="hover:text-foreground transition-colors">Reviews</a>
-          <a href="#faq" className="hover:text-foreground transition-colors">FAQ</a>
+          <a href="#benefits" className="hover:text-foreground transition-colors">Előnyök</a>
+          <a href="#reviews" className="hover:text-foreground transition-colors">Vélemények</a>
+          <a href="#faq" className="hover:text-foreground transition-colors">GYIK</a>
         </nav>
 
         <div className="flex items-center gap-3">
@@ -44,7 +44,7 @@ export function Header() {
             href="#product"
             className="hidden sm:inline-flex items-center gap-2 bg-accent text-accent-foreground font-semibold text-sm px-5 py-2.5 rounded-full hover:opacity-90 transition-opacity"
           >
-            Shop Now
+            Vásárlás
             <ArrowRight className="w-4 h-4" />
           </a>
           <button
@@ -59,15 +59,15 @@ export function Header() {
 
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-border px-4 py-4 flex flex-col gap-3">
-          <a href="#benefits" onClick={() => setMenuOpen(false)} className="py-2.5 text-sm font-medium text-foreground border-b border-border">Benefits</a>
-          <a href="#reviews" onClick={() => setMenuOpen(false)} className="py-2.5 text-sm font-medium text-foreground border-b border-border">Reviews</a>
-          <a href="#faq" onClick={() => setMenuOpen(false)} className="py-2.5 text-sm font-medium text-foreground">FAQ</a>
+          <a href="#benefits" onClick={() => setMenuOpen(false)} className="py-2.5 text-sm font-medium text-foreground border-b border-border">Előnyök</a>
+          <a href="#reviews" onClick={() => setMenuOpen(false)} className="py-2.5 text-sm font-medium text-foreground border-b border-border">Vélemények</a>
+          <a href="#faq" onClick={() => setMenuOpen(false)} className="py-2.5 text-sm font-medium text-foreground">GYIK</a>
           <a
             href="#product"
             onClick={() => setMenuOpen(false)}
             className="mt-1 w-full text-center bg-accent text-accent-foreground font-semibold text-sm px-5 py-3.5 rounded-full hover:opacity-90 transition-opacity"
           >
-            Shop Now
+            Vásárlás
           </a>
         </div>
       )}

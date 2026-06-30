@@ -1,9 +1,9 @@
 import { ChevronDown } from "lucide-react";
 
 const problems = [
-  { icon: "😣", label: "Dry, flaky lips and dull skin" },
-  { icon: "📉", label: "Loss of volume and firmness over time" },
-  { icon: "💰", label: "Expensive clinic treatments and fillers" },
+  { icon: "😣", label: "Száraz, hámló ajkak és fakó bőr" },
+  { icon: "📉", label: "Feszesség és térfogatvesztés" },
+  { icon: "💰", label: "Drága klinikai kezelések" },
 ];
 
 export function ProblemSolution() {
@@ -12,15 +12,14 @@ export function ProblemSolution() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <p className="text-accent text-sm font-semibold uppercase tracking-widest mb-3">
-            Sound familiar?
+            Ismerősen hangzik?
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground font-serif">
-            Your Skin Deserves More
+            A Bőröd Többet Érdemel
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-            As skin matures, it loses volume, hydration, and firmness. Most
-            products address one issue at a time — and none of them are
-            affordable or convenient.
+            Ahogy a bőr érik, veszít feszességéből és hidratáltságából. A legtöbb 
+            termék egyszerre csak egy problémát kezel — és egyik sem megfizethető vagy kényelmes.
           </p>
         </div>
 
@@ -42,13 +41,13 @@ export function ProblemSolution() {
         <div className="bg-white rounded-2xl border border-pink-200 shadow-sm p-8 text-center max-w-2xl mx-auto">
           <div className="text-4xl mb-4">✨</div>
           <h3 className="text-2xl font-bold text-foreground mb-3 font-serif">
-            One Balm. Total Care.
+            Egyetlen Balzsam. Teljes Ápolás.
           </h3>
           <p className="text-muted-foreground leading-relaxed">
-            The PDRN Pink Collagen Multi Balm combines skin-repairing PDRN,
-            collagen-boosting actives, and the clinically proven Volufiline™
-            complex in a single travel-ready stick. One product, full-face
-            results — at a fraction of clinic prices.
+            A PDRN Pink Collagen Multi Balm egyesíti a bőrjavító PDRN-t, 
+            a kollagén-fokozó hatóanyagokat és a klinikailag bizonyított Volufiline™ 
+            komplexet egyetlen kompakt stiftben. Egy termék, teljes arcra kiterjedő 
+            eredmények — a klinikai árak töredékéért.
           </p>
         </div>
       </div>

@@ -6,10 +6,10 @@ export function TrustBar() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2">
           {[
-            { icon: <Truck className="w-4 h-4" />, label: "Free delivery on all orders" },
-            { icon: <ShieldCheck className="w-4 h-4" />, label: "SSL secured payment" },
-            { icon: <RefreshCw className="w-4 h-4" />, label: "30-day money-back guarantee" },
-            { icon: <Smile className="w-4 h-4" />, label: "Dermatologist tested" },
+            { icon: <Truck className="w-4 h-4" />, label: "Ingyenes szállítás minden rendelésre" },
+            { icon: <ShieldCheck className="w-4 h-4" />, label: "SSL biztonságos fizetés" },
+            { icon: <RefreshCw className="w-4 h-4" />, label: "30 napos pénzvisszafizetési garancia" },
+            { icon: <Smile className="w-4 h-4" />, label: "Bőrgyógyászatilag tesztelt" },
           ].map(({ icon, label }) => (
             <div key={label} className="flex items-center gap-2 text-white/90 text-sm font-medium">
               <span className="text-pink-300">{icon}</span>

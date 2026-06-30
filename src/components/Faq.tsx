@@ -5,24 +5,24 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 
 const faqs = [
   {
-    q: "How fast is shipping?",
-    a: "All orders are dispatched within 1–2 business days. Standard delivery takes 3–5 business days. Express shipping is available at checkout.",
+    q: "Milyen gyors a szállítás?",
+    a: "Minden rendelést 1-2 munkanapon belül feldolgozunk és feladunk. A szállítás a futárszolgálattól függően általában 1-2 munkanapot vesz igénybe Magyarországon.",
   },
   {
-    q: "What payment methods do you accept?",
-    a: "We accept all major credit and debit cards (Visa, Mastercard, American Express), PayPal, and Apple Pay. Every transaction is SSL-secured.",
+    q: "Milyen fizetési módokat fogadtok el?",
+    a: "Elfogadunk minden nagyobb bankkártyát (Visa, Mastercard, Maestro), Apple Pay-t, Google Pay-t, illetve utánvétes fizetés is lehetséges a futárnál.",
   },
   {
-    q: "Is there a money-back guarantee?",
-    a: "Yes — we offer a 30-day satisfaction guarantee. If you are not completely happy with your purchase, contact us and we will arrange a full refund, no questions asked.",
+    q: "Van pénzvisszafizetési garancia?",
+    a: "Igen! 30 napos 100%-os elégedettségi garanciát vállalunk. Ha nem vagy maradéktalanul elégedett a termékkel, csak vedd fel velünk a kapcsolatot, és visszatérítjük a teljes vételárat, kérdések nélkül.",
   },
   {
-    q: "How do I use the PDRN Pink Collagen Balm?",
-    a: "Apply the balm stick directly to lips, cheeks, eye area, or neck. Use gentle tapping motions to help absorption. Can be used morning and evening as part of your routine, or as a quick on-the-go treatment throughout the day.",
+    q: "Hogyan használjam a PDRN Pink Collagen Balzsamot?",
+    a: "Vidd fel a balzsamot közvetlenül az ajkaidra, orcákra, szemkörnyékre vagy a nyakadra. Finom ütögető mozdulatokkal segítsd a felszívódást. Használhatod reggel és este a rutinod részeként, vagy napközben bárhol, amikor egy kis plusz hidratálásra van szükséged.",
   },
   {
-    q: "Is it suitable for sensitive skin?",
-    a: "Yes. The formula is dermatologist-tested and free from parabens and harsh irritants. The PDRN complex and Volufiline are well-tolerated by most skin types, including sensitive skin. If you have specific concerns, a patch test is always recommended.",
+    q: "Érzékeny bőrre is alkalmas?",
+    a: "Igen. A formula bőrgyógyászatilag tesztelt, parabén- és irritálóanyag mentes. A PDRN komplex és a Volufiline a legtöbb bőrtípus, így az érzékeny bőr számára is jól tolerálható.",
   },
 ];
 
@@ -59,10 +59,10 @@ export function Faq() {
       <div className="max-w-2xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <p className="text-accent text-sm font-semibold uppercase tracking-widest mb-3">
-            Have questions?
+            Kérdésed van?
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground font-serif">
-            Frequently Asked
+            Gyakori Kérdések
           </h2>
         </div>
         <div className="flex flex-col gap-3">
