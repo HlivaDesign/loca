@@ -8,14 +8,16 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             {/* The invert and mix-blend-screen classes will make the black text transparent against the dark background. 
                 We also use brightness(2) to ensure it stays white enough. */}
-            <Image
-              src="/images/logo.png"
-              alt="Loca.hu"
-              width={120}
-              height={40}
-              className="h-9 w-auto object-contain self-start invert mix-blend-screen opacity-90"
-              style={{ filter: "invert(1) brightness(2) contrast(1.2)" }}
-            />
+            <a href="/" className="inline-block self-start">
+              <Image
+                src="/images/logo.png"
+                alt="Loca.hu"
+                width={120}
+                height={40}
+                className="h-9 w-auto object-contain invert mix-blend-screen opacity-90"
+                style={{ filter: "invert(1) brightness(2) contrast(1.2)" }}
+              />
+            </a>
             <p className="text-sm text-white/50 leading-relaxed">
               Loca.hu — válogatott, fókuszált, célzott. Egyszerre egy termék, 
               mindig a legjobb a kategóriájában.

@@ -23,7 +23,7 @@ export function Header() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
-        <a href="#" className="shrink-0">
+        <a href="/" className="shrink-0">
           <Image
             src="/images/logo.png"
             alt="Loca.hu"
